@@ -15,11 +15,11 @@ public class Ejercicio_8 {
         
         persona.setNombre("Juan Carlos");
         
-        persona.setTelefono("57+3124560796");
+        persona.setTelefono(31245606);
         
-        System.out.print("edad=" +persona.getEdad());
-        System.out.print("  nombre= " +persona.getNombre());
-        System.out.print("  telefono= " +persona.getTelefono());
+        System.out.print(" mi edad es=" +persona.getEdad());
+        System.out.print(" mi nombre es= " +persona.getNombre());
+        System.out.print(" mi telefono es= " +persona.getTelefono());
         
     }
     
@@ -29,7 +29,7 @@ class Persona{
 
     private int edad;
     private String nombre;
-    private String telefono;
+    private int telefono;
 
     public int getEdad() {
         return edad;
@@ -47,11 +47,11 @@ class Persona{
         this.nombre = nombre;
     }
 
-    public String getTelefono() {
+    public int getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(String telefono) {
+    public void setTelefono(int telefono) {
         this.telefono = telefono;
     }
     
